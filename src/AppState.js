@@ -7,5 +7,9 @@ export const AppState = reactive({
   account: {},
 
   /** @type {import('./models/Gift).Gift[]} */
-  gifts: []
+  gifts: [],
+
+  /** @type {import('./models/Gif).Gif[]} */
+  gifs: []
+
 })
